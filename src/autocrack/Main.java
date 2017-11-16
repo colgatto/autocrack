@@ -30,7 +30,7 @@ class Main {
 		Util.live(new String[]{"rm","cap/generalDump-01.csv","cap/generalDump-01.cap"});
 		for(AP ap : list.getList()) {
 			if(ap.hasClients())
-				System.out.println(ap.getESSID());
+				System.out.println(ap);
 		}
 			/**/
 	}
