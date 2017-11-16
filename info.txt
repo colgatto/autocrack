@@ -1,0 +1,17 @@
+./getInterfacesName.sh
+	return interfaces
+
+./startMonitor.sh interface
+	return monitorInterface
+
+./generalDump.sh interface seconds
+	generate garbage.cap - garbage.csv
+
+./regularDump.sh interface MAC channel outputFile seconds
+	generate outputFile.cap - outputFile.csv
+
+./deauth.sh interface apMAC clientMac N.Dauth
+	return output
+
+./finded.sh file.cap
+	return 1 if contain handshake else 0

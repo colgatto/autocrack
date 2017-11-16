@@ -1,0 +1,4 @@
+{"root":[{"ESSID": "nome","BSSID": "mac","capFile": "file coi cap","date": "2017-11-15 11:45:02"},
+{"ESSID": "nome2","BSSID": "mac","capFile": "file coi cap","date": "2017-11-15 11:46:12"},
+{"ESSID": "nome3","BSSID": "nuovo mac","capFile": "file coi cap del terzo","date": "2017-11-14 11:45:02"},
+{"BSSID": "solo mac","date": "2017-11-14 11:30:02"}]}
